@@ -1,4 +1,4 @@
-# InterHacktive Hackathon 2k23
+# Diversion Hackathon 2k24 ft. FusionI
 <div align="center">
   <img src="https://india-aura.vercel.app/static/media/Indiaaura-logo.b542c4a66b151cb0830c.png" alt="Logo" width="120" height="120"/>
   <h2>India Aura(Tourism Website)</h2>
