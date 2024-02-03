@@ -5,6 +5,9 @@ import Footer from "./Footer";
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706707120703.json";
 import { Link } from "react-router-dom";
+import {getDatabase, ref,set} from "firebase/database";
+import Sidebar from './Sidebar'
+
 const ImageAi = () => {
   const [numImages, setNumImages] = useState(1);
   const [textDescription, setTextDescription] = useState("");
@@ -55,9 +58,11 @@ const ImageAi = () => {
   };
 
   return (
-    <div>
+    <div className="maindiv">
       <Navbar />
       <div className="ImgGenBody">
+      <Sidebar />
+      <div className="rightdiv">
         <div className="backgroundImage">
           {loading ? (
             <Lottie
@@ -111,11 +116,11 @@ const ImageAi = () => {
               Generate Image
             </button>
           </div>
-
           <div className="anything_else_img">
           <label className="anything_label">Wanna Anything else?</label>
         <Link to='/image' className='anything_button'><button>Generate Image</button></Link>
         <Link to='/codegen' className='anything_button'><button>Generate Code</button></Link>
+        </div>
         </div>
         </div>
       </div>
