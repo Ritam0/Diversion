@@ -1,0 +1,62 @@
+/* Logout.css */
+
+.outer-div {
+    display: flex;
+  }
+  
+  .background-image {
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+    width: 40vw;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LogoutContainer {
+    flex: 1;
+    display: flex;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-btn {
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #45a049;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

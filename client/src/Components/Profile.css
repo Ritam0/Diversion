@@ -1,0 +1,67 @@
+/* Profile.css */
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.profileImageContainer {
+  margin-bottom: 20px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profileInfo {
+  text-align: center;
+}
+
+.profileName {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.profileId {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.profileEmail {
+  margin-bottom: 10px;
+}
+
+.profileType {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.logoutLink {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.logoutLink:hover {
+  background-color: #0056b3;
+}

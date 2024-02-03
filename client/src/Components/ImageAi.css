@@ -1,0 +1,116 @@
+/* Add this CSS in your styles file or component */
+
+.ImgGenBody {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+  .outerdiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .imgInput {
+    margin-top: 90px;
+    margin-left: 100px;
+  }
+  .inputcontainerImg {
+    display: flex;
+    flex-direction: row;
+  }
+  .loadingImgBarDisable{
+    width: 0px;
+    height: 8px;
+    border-radius: 25px;
+    background: #BA274A;
+    border: 10px;
+  }
+  .loadingImgBar{
+    width: 400px;
+    height: 8px;
+    border-radius: 25px;
+    background: #BA274A;
+    border: 10px;
+    transition: 20s;
+  }
+  
+  .loadingImgTxtDisable{
+    display: none;
+  }
+  
+  
+  h1 {
+    color: #BA274A;
+  }
+  
+  .imageGenPrompt {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #BA274A;
+  }
+  
+  .inputSectionOfImage {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+  .backgroundImage {
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+    width: 30vw;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #4caf50;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .generatedImg {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .imgGenButton {
+      margin-left: 0; /* Reset margin for smaller screens */
+    }
+
+    .generatedImg {
+      margin-left: 0; /* Reset margin for smaller screens */
+    }
+    .inputSectionOfImage {
+        width: 200px;
+        
+      }
+      .ImgGenBody {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .imgGenButton{
+        margin-left: 10px;
+      }
+  }
