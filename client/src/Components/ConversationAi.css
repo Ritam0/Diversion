@@ -1,0 +1,108 @@
+/* src/components/ConversationAi.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.conversationBody {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conversationContainer {
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70vw;
+  height: 600px; 
+  overflow-y: auto;
+}
+
+.backgroundImage {
+  background-size: cover;
+  background-position: center;
+  height: 90vh; 
+  width: 30vw;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageContainer {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userMessage,
+.assistantMessage {
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.userMessage {
+  align-self: flex-end;
+  background-color: #99ccff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 50%;
+}
+
+.assistantMessage {
+  align-self: flex-start;
+  background-color: #ccffcc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 50%;
+}
+
+.inputContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.sendMessageBtn {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}

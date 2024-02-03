@@ -1,0 +1,33 @@
+/* Auth.css */
+
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F9F1F1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .auth-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    animation: fadeIn 0.5s ease;
+  }
+  .left-container {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .right-container {
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  
