@@ -1,6 +1,6 @@
 # Diversion Hackathon 2k24 ft. FusionI
 <div align="center">
-  <img src="https://india-aura.vercel.app/static/media/Indiaaura-logo.b542c4a66b151cb0830c.png" alt="Logo" width="120" height="120"/>
+  <img src="https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/775c62ba-d87c-40e2-ae28-11bafb783a14" alt="Logo" width="120" height="120"/>
   <h2>India Aura(Tourism Website)</h2>
   <h2>Track:- Project Workflow</h2>
   <h3>Our Dashing website is now live</h3>
