@@ -1,10 +1,9 @@
 # Diversion Hackathon 2k24 ft. FusionI
 <div align="center">
   <img src="https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/775c62ba-d87c-40e2-ae28-11bafb783a14" alt="Logo" width="120" height="120"/>
-  <h2>India Aura(Tourism Website)</h2>
-  <h2>Track:- Project Workflow</h2>
+  <h2>FusionI (All Ai service in one platform)</h2>
   <h3>Our Dashing website is now live</h3>
-  <p>Click the following link to visit India Aura:</p>
+  <p>Click the following link to visit FusionI:</p>
     <a href="https://india-aura.vercel.app/">Visit Website</a>
   <p align="center">
     Use this readme for getting stared with this project
@@ -20,8 +19,9 @@
     <li>
       <a href="#demo">Demo</a>
     </li>
-     <li><a href="#Screenshots">Screenshots</a></li>
-     <li> <a href="#ProjectIdea">Project Idea</a></li>
+     <li><a href="#Screenshots">Landing Page</a></li>
+      <img src="https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/b7d4520c-507a-41c9-8a2b-05a4ade3390d" alt="Logo" width="120" height="120"/>
+    <li> <a href="#ProjectIdea">Our Services</a></li>
           <li> <a href="#Problemsolvedbythisproject">Problem solved by this projects</a></li>
       <li><a href="#tech-stack">Tech Stack</a></li>
       <li><a href="#getting started">Getting started</a></li>
