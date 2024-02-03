@@ -7,8 +7,13 @@
     justify-content: space-evenly;
     height: 100vh;
   }
-  .anything_else{
+  .anything_else_img{
+    margin-top: 20px;
     padding: 50px;
+    margin-left: -50px;
+  }
+  .anything_label{
+    margin-left: 70px;
   }
   .outerdiv {
     display: flex;
@@ -55,10 +60,11 @@
   }
   
   .inputSectionOfImage {
-    width: 200px;
+    width: 400px;
     padding: 10px;
     font-size: 14px;
     border-radius: 25px;
+    margin-left: -150px;
   }
   .backgroundImage {
     background-size: cover;

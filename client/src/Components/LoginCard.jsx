@@ -5,8 +5,10 @@ import { auth, provider } from "../firebase.auth";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { Link } from "react-router-dom";
 import "./LoginCard.css";
+import { useNavigate } from 'react-router-dom';
 
 const LoginCard = () => {
+  const navigate=useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
@@ -40,6 +42,7 @@ const LoginCard = () => {
       localStorage.setItem("Name",data.user.displayName);
       localStorage.setItem("userId",data.user.uid);
       setValue(1);
+      navigate('/');
       
     } catch (error) {
       setError(error.message);

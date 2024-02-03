@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706707120703.json";
 import { Link } from "react-router-dom";
-
 const ImageAi = () => {
   const [numImages, setNumImages] = useState(1);
   const [textDescription, setTextDescription] = useState("");
@@ -25,7 +24,7 @@ const ImageAi = () => {
             headers: {
               "Content-Type": "application/json",
               Authorization:
-                "Bearer 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",
+                "Bearer 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",
             },
             body: JSON.stringify({
               prompt: textDescription,
@@ -83,7 +82,7 @@ const ImageAi = () => {
               <label htmlFor="numImages" className="imageGenPrompt">
                 Number of Images:
               </label>
-              <input
+              {/* <input
                 type="number"
                 id="numImages"
                 className="inputSectionOfImage"
@@ -91,7 +90,7 @@ const ImageAi = () => {
                 onChange={(e) => setNumImages(e.target.value)}
                 min={1}
                 max={5}
-              />
+              /> */}
             </div>
 
             <div className="inputContainerImg">
@@ -111,13 +110,13 @@ const ImageAi = () => {
             <button onClick={generateImage} className="button">
               Generate Image
             </button>
+          </div>
 
-            <div className="anything_else">
-          <label htmlFor="">Wanna Anything else?</label>
-        <Link to='/conversation' className='anything_button'><button>Do Chat</button></Link>
+          <div className="anything_else_img">
+          <label className="anything_label">Wanna Anything else?</label>
+        <Link to='/image' className='anything_button'><button>Generate Image</button></Link>
         <Link to='/codegen' className='anything_button'><button>Generate Code</button></Link>
         </div>
-          </div>
         </div>
       </div>
       <Footer />
