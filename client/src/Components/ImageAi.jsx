@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706707120703.json";
 import { Link } from "react-router-dom";
+import {getDatabase, ref,set} from "firebase/database";
+
 const ImageAi = () => {
   const [numImages, setNumImages] = useState(1);
   const [textDescription, setTextDescription] = useState("");
@@ -42,9 +44,13 @@ const ImageAi = () => {
           return imageData.data[0].url;
         })
       );
-  
+      const database= getDatabase();
+      set(ref(database, 'images/'),{
+        message: textDescription,
+      });
+      console.log(textDescription)
       setGeneratedImage(responses);
-  
+        
       setTimeout(() => {
         setTextDescription("");
         setLoading(false);
@@ -107,7 +113,7 @@ const ImageAi = () => {
             </div>
           </div>
           <div className="imgBtnGen">
-            <button onClick={generateImage} className="button">
+            <button onClick={()=>generateImage} className="button">
               Generate Image
             </button>
           </div>
