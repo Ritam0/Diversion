@@ -15,23 +15,23 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h4>Contact Information</h4>
-            <p>Email: info@fusioni.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
+            <p>Email: contact@fusioni.com</p>
+            <p>Phone: +91 9999668822</p>
           </div>
           <div className="footer-section">
             <h4>Follow Us</h4>
             <p>Stay connected with us on social media for the latest updates and announcements.</p>
             <div className="social-links">
-            <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href={facebookUrl} target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.linkedin.com/in/ritam-majumder-krover/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/Ritam0" target="_blank" rel="noopener noreferrer">Github</a>
           </div>
           </div>
           <div className="footer-section">
             <h4>Additional Links</h4>
             <div className="additional-links">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">FAQs</a></li>
+              <li><a href="https://www.linkedin.com/in/bibhab-mukhopadhyay-898303241/" target='_blank'>Linkdin</a></li>
+              <li><a href="https://github.com/BIBHAB22" target='_blank'>Github</a></li>
+             
             </div>
           </div>
         </div>

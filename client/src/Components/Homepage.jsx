@@ -57,6 +57,7 @@ const Home = () => {
         <div className={`ai-card ${flipped === 0 ? 'flipped' : ''}`} onClick={() => handleFlip(0)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
+              <img src="https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg" alt="" />
               <h2>Conversation</h2>
               <p>Click to see description</p>
               <Link to='/conversation'><button className="try-now-btn">Try Now</button> </Link>
@@ -72,6 +73,7 @@ const Home = () => {
         <div className={`ai-card ${flipped === 1 ? 'flipped' : ''}`} onClick={() => handleFlip(1)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
+              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
               <h2>Code Generator</h2>
               <p>Click to see description</p>
               <Link to='/codegen'><button className="try-now-btn">Try Now</button> </Link>
@@ -88,6 +90,7 @@ const Home = () => {
         <div className={`ai-card ${flipped === 2 ? 'flipped' : ''}`} onClick={() => handleFlip(2)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
+              <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
               <h2>Image Generator</h2>
               <p>Click to see description</p>
               <Link to='/image'><button className="try-now-btn">Try Now</button> </Link>
@@ -104,9 +107,10 @@ const Home = () => {
         <div className={`ai-card ${flipped === 3 ? 'flipped' : ''}`} onClick={() => handleFlip(3)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
-              <h2>Code Generator</h2>
+              <img src="https://images.pexels.com/photos/534283/pexels-photo-534283.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+              <h2>Music Generator</h2>
               <p>Click to see description</p>
-              <Link to='/codegen'><button className="try-now-btn">Try Now</button> </Link>
+              <Link to='/music'><button className="try-now-btn">Try Now</button> </Link>
             </div>
             <div className="ai-card-back">
               <p>
@@ -120,6 +124,7 @@ const Home = () => {
         <div className={`ai-card ${flipped === 4 ? 'flipped' : ''}`} onClick={() => handleFlip(4)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
+              <img src="https://images.pexels.com/photos/64057/pexels-photo-64057.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
               <h2>Text to Speech Converter</h2>
               <p>Click to see description</p>
               <Link to='/txtspeech'><button className="try-now-btn">Try Now</button> </Link>

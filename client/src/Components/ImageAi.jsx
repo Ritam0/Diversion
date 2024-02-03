@@ -6,7 +6,6 @@ import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706707120703.json";
 import { Link } from "react-router-dom";
 import {getDatabase, ref,set} from "firebase/database";
-import Sidebar from './Sidebar';
 
 const ImageAi = () => {
   const [numImages, setNumImages] = useState(1);
@@ -27,7 +26,7 @@ const ImageAi = () => {
             headers: {
               "Content-Type": "application/json",
               Authorization:
-                "Bearer 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",
+                "Bearer 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",
             },
             body: JSON.stringify({
               prompt: textDescription,
@@ -45,13 +44,9 @@ const ImageAi = () => {
           return imageData.data[0].url;
         })
       );
-      const database= getDatabase();
-      set(ref(database, 'images/'),{
-        message: textDescription,
-      });
-      console.log(textDescription)
+  
       setGeneratedImage(responses);
-        
+  
       setTimeout(() => {
         setTextDescription("");
         setLoading(false);
@@ -116,7 +111,7 @@ const ImageAi = () => {
             </div>
           </div>
           <div className="imgBtnGen">
-            <button onClick={()=>generateImage} className="button">
+            <button onClick={generateImage} className="button">
               Generate Image
             </button>
           </div>
