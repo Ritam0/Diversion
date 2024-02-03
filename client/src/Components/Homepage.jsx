@@ -9,6 +9,7 @@ import './Homepage.css';
 import image from "./Image/shape-dotted-light.svg";
 import FAQ from "./FAQ/index"
 import { Link } from 'react-router-dom';
+import { MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
 
 const Home = () => {
   const [flipped, setFlipped] = useState(null);
@@ -28,13 +29,7 @@ const Home = () => {
             <Wave text="Welcome to FusionI" />
           </div>
           <div className='tagline'>
-            <Random
-              text="Your solution for intelligent automation"
-              paused={paused}
-              effect="verticalFadeOut"
-              effectDirection="up"
-              effectChange={0.05}
-            />
+            <h1>Your solution for intelligent automation</h1>
           </div>
         </div>
         <div className="right-side">
