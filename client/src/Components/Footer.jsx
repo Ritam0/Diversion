@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h4>Follow Us</h4>
-            <p>Stay connected with us on social media for the latest updates and announcements.</p>
+            <p>Stay connected with us on social media for the latest updates and announcements.aaaathsnk ayou</p>
             <div className="social-links">
             <a href="https://www.linkedin.com/in/ritam-majumder-krover/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/Ritam0" target="_blank" rel="noopener noreferrer">Github</a>
