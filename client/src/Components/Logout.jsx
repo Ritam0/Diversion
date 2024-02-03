@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 import styled, { keyframes } from 'styled-components';
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706949602745.json";
+import { IoIosLogOut } from "react-icons/io";
 import './Logout.css'
+
 const fadeIn = keyframes`
   0% {
     opacity: 0;
@@ -45,9 +47,15 @@ const Logout = () => {
     </div>
     <div className='LogoutContainer'>
       <Card>
+      <div className='logout-icon-container'>
+            <IoIosLogOut size={40}/>
+          </div>
         <h2>You are logged out successfully!</h2>
+        <div className='tag'>
+        <h3>Thank you for using FusionI</h3>
+        </div>
         <Link to="/">
-          <button className='confirm-btn'onClick={logout}>Confirm</button>
+          <button className='confirm-btn'onClick={logout}>Go back</button>
         </Link>
       </Card>
     </div>

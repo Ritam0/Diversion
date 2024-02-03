@@ -52,7 +52,11 @@ const Home = () => {
         <div className={`ai-card ${flipped === 0 ? 'flipped' : ''}`} onClick={() => handleFlip(0)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
-              <img src="https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg" alt="" />
+            <img
+                src="https://images.pexels.com/photos/230554/pexels-photo-230554.jpeg"
+                alt=""
+                className="card-image"
+              />
               <h2>Conversation</h2>
               <p>Click to see description</p>
               <Link to='/conversation'><button className="try-now-btn">Try Now</button> </Link>
@@ -68,7 +72,11 @@ const Home = () => {
         <div className={`ai-card ${flipped === 1 ? 'flipped' : ''}`} onClick={() => handleFlip(1)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
-              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+            <img
+                src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                className="card-image"
+              />
               <h2>Code Generator</h2>
               <p>Click to see description</p>
               <Link to='/codegen'><button className="try-now-btn">Try Now</button> </Link>
@@ -85,7 +93,11 @@ const Home = () => {
         <div className={`ai-card ${flipped === 2 ? 'flipped' : ''}`} onClick={() => handleFlip(2)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
-              <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+            <img
+                src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                className="card-image"
+              />
               <h2>Image Generator</h2>
               <p>Click to see description</p>
               <Link to='/image'><button className="try-now-btn">Try Now</button> </Link>
@@ -102,7 +114,11 @@ const Home = () => {
         <div className={`ai-card ${flipped === 3 ? 'flipped' : ''}`} onClick={() => handleFlip(3)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
-              <img src="https://images.pexels.com/photos/534283/pexels-photo-534283.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+            <img
+                src="https://images.pexels.com/photos/534283/pexels-photo-534283.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                className="card-image"
+              />
               <h2>Music Generator</h2>
               <p>Click to see description</p>
               <Link to='/music'><button className="try-now-btn">Try Now</button> </Link>
@@ -119,7 +135,11 @@ const Home = () => {
         <div className={`ai-card ${flipped === 4 ? 'flipped' : ''}`} onClick={() => handleFlip(4)}>
           <div className="ai-card-inner">
             <div className="ai-card-front">
-              <img src="https://images.pexels.com/photos/64057/pexels-photo-64057.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+            <img
+                src="https://images.pexels.com/photos/64057/pexels-photo-64057.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                className="card-image"
+              />
               <h2>Text to Speech Converter</h2>
               <p>Click to see description</p>
               <Link to='/txtspeech'><button className="try-now-btn">Try Now</button> </Link>
@@ -146,13 +166,16 @@ const Home = () => {
           {/* <!-- Section Title End --> */}
         </div>
 
-        <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0">
+        <div className="relative mx-auto mt-15 max-w-[1280px] px-4 md:px-8 xl:mt-20 xl:px-0">
           <div className="absolute -bottom-15 -z-1 h-full w-full">
             <img fill src={image} alt="Dotted" />
           </div>
           <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border  bg-white p-7.5 shadow-solid-10 border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+            <div className="absolute -right-12 top-19 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                Student Discount 30%
+              </div>
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
               ₹199{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
@@ -162,21 +185,21 @@ const Home = () => {
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
                 Basic Plan
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Essential features for a powerful learning experience at ₹199/year.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Unlimited Access to Core Content
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Chats
+                    Affordable Price, Premium Learning Experience
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Basic Customer Support Included
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Yearly Updates for Continuous Learning
                   </li>
                 </ul>
               </div>
@@ -222,21 +245,21 @@ const Home = () => {
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
                 Master Plan
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Enhanced features for optimal learning at ₹499/year.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Exclusive Access to Premium Content
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Chats
+                    Priority Support for Swift Assistance
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Interactive Learning for Engaged Experience
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Enhanced Features for Optimal Learning
                   </li>
                 </ul>
               </div>
@@ -275,21 +298,21 @@ const Home = () => {
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
                 Premium plan
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
+              <p>Premium offerings for advanced learning at ₹799/year.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Unlock Premium Courses and Resources
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Chats
+                    24/7 VIP Support for Assistance
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Personalized Learning Path and Recommendations
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Top-Tier Features for Advanced Learning
                   </li>
                 </ul>
               </div>

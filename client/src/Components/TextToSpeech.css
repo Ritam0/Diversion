@@ -8,9 +8,10 @@
   height: 100vh;
 }
 
-.backgroundImage {
+.Txt-background-image {
   background-size: cover;
   background-position: center;
+  background-color: #4CAF50;
   height: 90vh; 
   width: 40vw;
   border-radius: 8px;

@@ -61,6 +61,7 @@ body {
   display: flex;
   color:#1C0221;
   font-weight: bold;
+  font-family: monospace;
   padding: 0px 40px;
   margin-top: 60px;
   font-size: 50px !important;
@@ -137,6 +138,13 @@ body {
 .ai-card p {
   color: #666;
   line-height: 1.5;
+}
+
+.card-image {
+  width: auto;
+  overflow: hidden;
+  height: auto;
+  border-radius: 8px 8px 0 0;
 }
 h1 {
   color: hsl(0, 0%, 28%);

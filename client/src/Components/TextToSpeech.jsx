@@ -46,7 +46,7 @@ const TextToSpeech = () => {
     <>
     <Navbar />
     <div className="container">
-      <div className="backgroundImage">
+      <div className="Txt-background-image">
         <Lottie
             options={{
               loop: true,

@@ -21,13 +21,28 @@
     padding-right: 100px;
     justify-content: center;
     align-items: center;
+    font-family: monospace;
   }
   
+  .logout-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
   .card {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #fff;
     animation: fadeIn 0.5s ease;
+  }
+
+  .tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
   }
   
   h2 {
@@ -36,8 +51,8 @@
   }
   
   .confirm-btn {
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 180px;
+    padding-right: 180px;
     font-size: 16px;
     background-color: #4CAF50;
     color: #fff;
