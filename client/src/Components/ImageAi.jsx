@@ -6,6 +6,7 @@ import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706707120703.json";
 import { Link } from "react-router-dom";
 import {getDatabase, ref,set} from "firebase/database";
+import Sidebar from './Sidebar'
 
 const ImageAi = () => {
   const [numImages, setNumImages] = useState(1);
