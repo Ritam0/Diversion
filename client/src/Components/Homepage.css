@@ -146,6 +146,7 @@ h1 {
   letter-spacing: 7px!important;
   cursor: pointer;
   text-transform: uppercase;
+  transform: translateZ(0);
 }
 
 h1 {
