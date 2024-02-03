@@ -5,6 +5,7 @@ import animationData from './Image/Animation - 1706812123240.json';
 import './CodeGenAi.css';
 import OpenAI from "openai";
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const CodeGenAi = () => {
     const handleCopyCode = () => {
@@ -106,6 +107,11 @@ const CodeGenAi = () => {
         <div className="sendMessageBtn">
           <button onClick={sendMessage}>Generate Code</button>
           
+        </div>
+        <div className="anything_else">
+          <label htmlFor="">Wanna Anything else?</label>
+        <Link to='/image' className='anything_button'><button>Generate Image</button></Link>
+        <Link to='/conversation' className='anything_button'><button>Do Chat</button></Link>
         </div>
       </div>
     </div>

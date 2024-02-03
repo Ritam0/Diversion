@@ -7,6 +7,9 @@
     justify-content: space-evenly;
     height: 100vh;
   }
+  .anything_else{
+    padding: 50px;
+  }
   .outerdiv {
     display: flex;
     justify-content: space-between;

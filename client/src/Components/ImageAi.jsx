@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706707120703.json";
+import { Link } from "react-router-dom";
 
 const ImageAi = () => {
   const [numImages, setNumImages] = useState(1);
@@ -110,6 +111,12 @@ const ImageAi = () => {
             <button onClick={generateImage} className="button">
               Generate Image
             </button>
+
+            <div className="anything_else">
+          <label htmlFor="">Wanna Anything else?</label>
+        <Link to='/conversation' className='anything_button'><button>Do Chat</button></Link>
+        <Link to='/codegen' className='anything_button'><button>Generate Code</button></Link>
+        </div>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import animationData from './Image/Animation - 1706695808159.json';
 import './ConversationAi.css';
 import OpenAI from "openai";
 import Footer from './Footer';
-
+import { Link } from 'react-router-dom';
 const ConversationAi = () => {
   const openai = new OpenAI({
     apiKey: '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', // This is the default and can be omitted
@@ -90,7 +90,14 @@ const ConversationAi = () => {
 
         <div className="sendMessageBtn">
           <button onClick={sendMessage}>Send Message</button>
+          
         </div>
+        <div className="anything_else">
+          <label htmlFor="">Wanna Anything else?</label>
+        <Link to='/image' className='anything_button'><button>Generate Image</button></Link>
+        <Link to='/codegen' className='anything_button'><button>Generate Code</button></Link>
+        </div>
+        
       </div>
     </div>
     <Footer/>
