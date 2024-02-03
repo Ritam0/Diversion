@@ -45,7 +45,7 @@ const ImageAi = () => {
           const imageUrl = imageData.data[0].url;
 
           // Update history
-          setHistory(prevHistory => [...prevHistory, { textDescription, imageUrl }]);
+          setHistory(prevHistory => [...prevHistory, {textDescription}]);
           console.log(history)
           return imageUrl;
 
@@ -89,11 +89,6 @@ const ImageAi = () => {
           <div className="imgInput">
             <h1>Generate Image Fusion as you wish</h1>
             <div className="outerdiv">
-              <div className="inputContainerImg">
-                <label htmlFor="numImages" className="imageGenPrompt">
-                  Number of Images:
-                </label>
-              </div>
               <div className="inputContainerImg">
                 <label htmlFor="description" className="imageGenPrompt">
                   Enter Your Image Prompt Here:

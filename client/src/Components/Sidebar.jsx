@@ -10,10 +10,10 @@ const Sidebar=({history})=> {
     </div>
       <div className="sidebar-content">
        {history.map((item, index) => (
-          <div key={index}>
+          <li key={index}>
+            <strong>{item.textDescription}</strong>
             
-            <img src={item.imageUrl} alt=""  className='img_sidebar'/>
-            </div>
+            </li>
         ))}
 
     </div>
