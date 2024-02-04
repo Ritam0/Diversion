@@ -5,6 +5,7 @@ import './Profile.css';
 import { Link } from 'react-router-dom';
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706993079838.json";
+import Navbar from './Navbar';
 
 const Profile = () => {
   const [userName, setUserName] = useState('');
@@ -20,6 +21,9 @@ const Profile = () => {
   }, []);
 
   return (
+    <>
+    <Navbar/>
+    
     <div className="profileContainer">
       <div className="background-image">
         <Lottie
@@ -49,6 +53,7 @@ const Profile = () => {
       </div>
       </div>
     </div>
+    </>
   );
 };
 
