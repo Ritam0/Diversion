@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect} from 'react';
 import Navbar from './Navbar';
 import Lottie from 'react-lottie';
 import animationData from './Image/Animation - 1706812123240.json';
@@ -6,8 +6,10 @@ import './CodeGenAi.css';
 import OpenAI from "openai";
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const CodeGenAi = () => {
+  const [value,setValue]=useState('');
     const handleCopyCode = () => {
         const codeToCopy = conversation
           .filter(msg => msg.role === 'assistant')
@@ -18,6 +20,7 @@ const CodeGenAi = () => {
           .then(() => alert('Code copied to clipboard!'))
           .catch(err => console.error('Unable to copy code', err));
       };
+      const navigate=useNavigate();
   const openai = new OpenAI({
     apiKey: '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"', // This is the default and can be omitted
     dangerouslyAllowBrowser: true
@@ -61,6 +64,12 @@ const CodeGenAi = () => {
 
     setLoading(false);
   };
+  useEffect(()=>{
+    setValue(localStorage.getItem("email"));
+    if(!value){
+      navigate('/Auth');
+    }
+  })
 
   return (
     <div>

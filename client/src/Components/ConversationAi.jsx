@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect} from "react";
 import Navbar from "./Navbar";
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706695808159.json";
@@ -6,6 +6,7 @@ import "./ConversationAi.css";
 import OpenAI from "openai";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const ConversationAi = () => {
   const openai = new OpenAI({
     apiKey: "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", // This is the default and can be omitted
@@ -15,6 +16,8 @@ const ConversationAi = () => {
   const [userMessage, setUserMessage] = useState("");
   const [conversation, setConversation] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [value,setValue]=useState('');
+  const navigate=useNavigate();
 
   const sendMessage = async () => {
     // Add the user's message to the conversation
@@ -54,6 +57,12 @@ const ConversationAi = () => {
 
     setLoading(false);
   };
+  useEffect(()=>{
+    setValue(localStorage.getItem("email"));
+    if(!value){
+      navigate('/Auth');
+    }
+  })
 
   return (
     <div>

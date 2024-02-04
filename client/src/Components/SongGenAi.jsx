@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import "./SongGenAi.css";
 import Replicate from "replicate";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Navbar from "./Navbar";
 import music1 from "./Image/heyYou.mp3";
 import pyano from "./Image/pyano.wav";
@@ -11,8 +11,17 @@ import drum from "./Image/drum.mp3";
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1707005786054.json";
 import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 
 const SongGenAi = () => {
+  const [value,setValue]=useState('');
+  const navigate=useNavigate();
+  useEffect(()=>{
+    setValue(localStorage.getItem("email"));
+    if(!value){
+      navigate('/Auth');
+    }
+  })
   const audioRef = useRef(null);
   const [prompt, setPrompt] = useState("");
   const [audioSrc, setAudioSrc] = useState();

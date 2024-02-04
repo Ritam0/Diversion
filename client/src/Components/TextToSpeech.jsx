@@ -1,13 +1,22 @@
 import OpenAI from 'openai';
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef ,useEffect} from 'react';
 import { saveAs } from 'file-saver';
 import './TextToSpeech.css';
 import Lottie from "react-lottie";
 import animationData from "./Image/Animation - 1706888955654.json";
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 
 const TextToSpeech = () => {
+  const [value,setValue]=useState('');
+  const navigate=useNavigate();
+  useEffect(()=>{
+    setValue(localStorage.getItem("email"));
+    if(!value){
+      navigate('/Auth');
+    }
+  })
   const [audioSrc, setAudioSrc] = useState(null);
   const audioRef = useRef(null);
   const [prompt, setPrompt] = useState('');

@@ -7,8 +7,17 @@ import animationData from "./Image/Animation - 1706707120703.json";
 import { Link } from "react-router-dom";
 import { getDatabase, ref, set } from "firebase/database";
 import Sidebar from './Sidebar';
-
+import { useNavigate } from 'react-router-dom';
+import { useEffect } from "react";
 const ImageAi = () => {
+  const [value,setValue]=useState('');
+  const navigate=useNavigate();
+  useEffect(()=>{
+    setValue(localStorage.getItem("email"));
+    if(!value){
+      navigate('/Auth');
+    }
+  })
   const [numImages, setNumImages] = useState(1);
   const [textDescription, setTextDescription] = useState("");
   const [generatedImage, setGeneratedImage] = useState(["https://i.pinimg.com/564x/7a/01/06/7a0106c3ab68dcd2d2ad8b8d27096ed0.jpg"]);
