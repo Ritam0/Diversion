@@ -116,49 +116,72 @@ Solution: AI-Verse offers a unified, seamlessly integrated platform for easy ado
 
 - <img src="https://img.icons8.com/?size=512&id=NfbyHexzVEDk&format=png"  width=50px > **React .js** - for building the frontend  <br> 
 - <img src = "https://img.icons8.com/?size=512&id=11935&format=png" width=30px> **CSS** - For UI component <br>
-- <img src="https://mui.com/static/logo.png" height=30px width=50px/>**Material UI**- For UI ICON <br>
-- <img src = "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" height=40px width=40px> **Node js**- for Backend Service <br>
+- <img src="https://w7.pngwing.com/pngs/106/519/png-transparent-tailwind-css-hd-logo.png" height=30px width=50px/>**Tailwind CSS**- For UI<br>
+- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFD4a5Jl1uG0JFt0mzQfRh5OHXWd40Sc6pKQD2bsvls_P0wG2OQhP6kECQxlYYe-gcq4&usqp=CAU" height=30px width=50px/>**React Lottie**- For UI ANIMATION<br>
+- <img src = "https://e7.pngegg.com/pngimages/306/37/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png" height=40px width=40px> **Node js**- FOR JS ENVIRONMENT <br>
 
-- <img src = "https://img.icons8.com/?size=512&id=74402&format=png" height=40px width=40px> **Mongo DB**- for Database Service <br>
-
-- <img src="https://logowik.com/content/uploads/images/npm-inc7007.logowik.com.webp" height=40px width=40px/> **NPM** - Node Package manager<br>
-- <img src="https://w7.pngwing.com/pngs/81/2/png-transparent-cloudinary-hd-logo.png="  width=40px/> **Cloudinary** - Cloud Services <br>
-
-- <img src = "https://seeklogo.com/images/R/render-logo-818C47ACCA-seeklogo.com.png"  width=40px> **Render** or Project Deployment<br>
-
+- <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/1280px-Firebase_Logo.svg.png" height=40px width=40px> **Firebase**- FOR AUTHENTICATION <br>
+- <img src = "https://play-lh.googleusercontent.com/xkKA6l2elC_q7g-RWXG50mea2O3ggNGCiji7o6z0hDoZqog_LEkvxL_6DnFoxuppmQ" height=40px width=40px> **Replicate Ai**- For API Service<br>
+- <img src = "https://static-00.iconduck.com/assets.00/openai-icon-2021x2048-4rpe5x7n.png" height=40px width=40px> **Open Ai**- For API Service<br>
 - <img src = "https://avatars.githubusercontent.com/u/14985020?s=48&v=4" height=40px width=40px> **Vercel**- For Project Deployment<br>
-- <img src = "https://w7.pngwing.com/pngs/72/731/png-transparent-dialogflow-chatbot-conversation-google-natural-language-processing-google-angle-rectangle-orange.png" width=40px> **Dialogflow**- For ChatBot<br>
+
 
 
 
 ## 🙌 Functionalities
 
-- In the landing page user can see the stats and interect with some features
-- User can navigate to other pages like- **Home**,**Dream Tour**,**Profile**,**Blog**,**About Us**,**Register**,**Login**
-- After **Register** button user will redirect to login page and user have to login to use all features
-- After creating account and login users navigate to profile section here user can able to write blog and book **Hotels, flights and tourpackages**
-- Then user can requested to go Home page then go to Dream Tour page.
-- In dream tour page User need to scroll down and user find 4 section **Incredible India**,**Cultural**,**Wildlife** and **Vacation**
-- In **Incredible India** page user can find 30 days and 50 days Whole India tour plan.
-- In **Cultural** page user can find all cultural tourism of India like **Char Dham Yatra**,**Amarnath**,**Shri Jagannath Temple Puri**,**Taj Mahal** etc with proper tour plan.
-- In **Wildlife** page user can find all wildlife tourism of India like **Sundarbans**,**Jim Corbett National Park**,**Kaziranga National Park**,**Jaldapara National Park** etc with proper tour plan.
-- In **Vacation** page user can find all vacation tourism of India like **Beaches**,**Mountains**,**Historical Places**,**Outdoor-Attractions** etc with proper tour plan.
-- In all **Vacation** pages user can find all beaches mountains etc with proper tour plan.
-- Now come to **Blog** page Here user get a indian cultural map if user over the map user found Blogs about that region of India user is requested to click on any region to read Blog about that region.
-- In Whole App user found a **Chat Bot** named **Tourism Helper** if user give any city or region name of India the Chat Bot gives all tourist places and special things about that city or region.
-- Now after giving a feedback user can log out.
+Conversational AI Module:
+
+Natural language processing for intelligent communication.
+Task delegation, information retrieval, and quick problem-solving through chat.
+Code Generation Feature:
+
+Accelerated development with AI-generated code snippets.
+Descriptive input for automatic code synthesis, reducing coding time.
+Melody Maestro for Song Composition:
+
+Song creation based on user preferences or hummed tunes.
+AI-driven musical composition, making music creation accessible to all.
+ImagiCraft for Image Synthesis:
+
+Image generation from textual descriptions or concepts.
+Visual content creation without the need for graphic design expertise.
+Text-to-Speech (TTS) Conversion Tool:
+
+Accessibility enhancement through converting written content to spoken words.
+Inclusivity for visually impaired individuals and those preferring auditory learning.
+Seamless Integration and Scalability:
+
+Unified platform for effortless switching between AI modules.
+Easy adoption and scalability, ensuring a cohesive user experience.
+User Authentication and Data Security:
+
+Robust user authentication mechanisms to safeguard user accounts.
+Data encryption and secure storage to protect user-generated content.
+User-Friendly Dashboard:
+
+Intuitive dashboard for easy navigation and access to AI functionalities.
+Personalized user profiles for a tailored experience.
+API Integration:
+
+API support for easy integration with external applications and services.
+Extensibility for developers to build custom solutions on top of AI-Verse.
+Continuous Learning and Improvement:
+
+Machine learning algorithms for continuous improvement of AI models.
+Regular updates and feature enhancements based on user feedback.
 ## ⏭Roadmap
 - [x] landing page
 - [x] Website Stats
-- [x] Authentication System with MongoDB
-- [x] About Page
-- [x] Dream Tour
-- [x] Blog 
-- [x] Register/Login
-- [x] Chatbot
-- [x] Incredible India
-- [x] Tour Deatils
-- [x] Backend Deploy on Render 
+- [x] Authentication System with Google
+- [x] Our Services
+- [x] Generate Chat
+- [x] Generate Code
+- [x] Generate Image
+- [x] Generate Music
+- [x] Text to Speech
+- [x] Premium Plan
+- [x] Footer About Us
 - [x] Deploy on VERCEL
 ## 🧭Getting Started
 <b>To run the project in your system you have to follow steps given bellow:</b>
@@ -170,7 +193,7 @@ Solution: AI-Verse offers a unified, seamlessly integrated platform for easy ado
 <br/>
 1. Clone the repository to your system
   ```sh
-  git clone https://github.com/Ritam0/India-Aura
+  git clone https://github.com/Ritam0/FusionI
   ```
 2. Install node module packages
    ```sh
@@ -196,14 +219,7 @@ Meet the awesome people who have contributed to this project:
 
 <table>
   <tr>
-    <td align="center">
-      <a href="https://github.com/BIBHAB22">
-        <img src="https://avatars.githubusercontent.com/u/113331341?v=4" width="100px;" alt="ritesh2004" style="border-radius:50%"/>
-        <br />
-        <sub><b>BIBHAB MUKHOPADHYAY [Lead]</b></sub>
-      </a>
-    </td>
-    <td align="center">
+  <td align="center">
       <a href="https://github.com/Ritam0">
         <img src="https://avatars.githubusercontent.com/u/115490395?v=4" width="100px;" alt="Shouvik2" style="border-radius:50%"/>
         <br />
@@ -211,12 +227,14 @@ Meet the awesome people who have contributed to this project:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/https://github.com/Dibyajyoti011">
-        <img src="https://avatars.githubusercontent.com/u/116632776?v=4" width="100px;" alt="moh-15" style="border-radius:60%"/>
+      <a href="https://github.com/BIBHAB22">
+        <img src="https://avatars.githubusercontent.com/u/113331341?v=4" width="100px;" alt="ritesh2004" style="border-radius:50%"/>
         <br />
-        <sub><b>Dibyajyoti Biswas</b></sub>
+        <sub><b>BIBHAB MUKHOPADHYAy</b></sub>
       </a>
     </td>
+    
+    
     
   </tr>
 </table>
@@ -226,7 +244,3 @@ Meet the awesome people who have contributed to this project:
 
 ## Keep Hacking !!
 
-
-
-
-s
