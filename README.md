@@ -4,7 +4,7 @@
   <h2>FusionI (All Ai service in one platform)</h2>
   <h3>Our Dashing website is now live</h3>
   <p>Click the following link to visit FusionI:</p>
-    <a href="https://india-aura.vercel.app/">Visit Website</a>
+    <a href="https://fusioni-ai.vercel.app/">Visit Website</a>
   <p align="center">
     Use this readme for getting stared with this project
   </p>
