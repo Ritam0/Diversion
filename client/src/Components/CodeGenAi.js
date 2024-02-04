@@ -92,6 +92,7 @@ const CodeGenAi = () => {
           ))}
         </div>
 
+        <div className="codebar">
         <div className="inputContainer">
           <label htmlFor="userMessage"></label>
           <input
@@ -104,7 +105,7 @@ const CodeGenAi = () => {
 
         <div className="sendMessageBtn">
           <button onClick={sendMessage}>Generate Code</button>
-          
+          </div>
         </div>
         <div className="anything_else">
           <label htmlFor="">Wanna Anything else?</label>

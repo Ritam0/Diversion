@@ -92,6 +92,9 @@ body {
     margin-bottom: 20px;
   }
   
+  .codebar{
+    display: flex;
+  }
   .button {
     padding: 15px 25px;
     font-size: 16px;
