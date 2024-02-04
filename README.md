@@ -11,7 +11,8 @@
 </div>
 
 
-
+<li><a href="#Screenshots">Landing Page</a></li>
+     <img src="https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/775c62ba-d87c-40e2-ae28-11bafb783a14" alt="Logo" width="120" height="120"/>
 
 <details>
 <summary>Table of Contents</summary>
@@ -20,8 +21,6 @@
       <a href="#demo">Demo</a>
     </li>
      <li><a href="#Screenshots">Landing Page</a></li>
-     <img src="https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/775c62ba-d87c-40e2-ae28-11bafb783a14" alt="Logo" width="120" height="120"/>
-      <img src="https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/b7d4520c-507a-41c9-8a2b-05a4ade3390d" alt="screenshot" width="120" height="120"/>
     <li> <a href="#ProjectIdea">Our Services</a></li>
           <li> <a href="#Problemsolvedbythisproject">Problem solved by this projects</a></li>
       <li><a href="#tech-stack">Tech Stack</a></li>
@@ -44,9 +43,9 @@
 
 🚀 *Home Screen*
 
-![WhatsApp Image 2023-08-28 at 20 29 36](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/1bdbb8b8-a686-4491-895a-220036b9ee53)
+![WhatsApp Image 2023-08-28 at 20 29 36](https://github.com/BIBHAB22/AMAZON_CLONE/assets/113331341/775c62ba-d87c-40e2-ae28-11bafb783a14)
 
-🚀 *Dram Tour Destination*
+🚀 *Our Services*
 
 ![WhatsApp Image 2023-08-28 at 20 29 32](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/395599dd-f1af-4f4b-84f0-b1d89e9c1b54)
 
