@@ -17,10 +17,7 @@ const SongGenAi = () => {
   const [value,setValue]=useState('');
   const navigate=useNavigate();
   useEffect(()=>{
-    setValue(localStorage.getItem("email"));
-    if(!value){
-      navigate('/Auth');
-    }
+    if(!localStorage.getItem("email"))navigate('/Auth');
   })
   const audioRef = useRef(null);
   const [prompt, setPrompt] = useState("");

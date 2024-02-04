@@ -13,10 +13,7 @@ const ImageAi = () => {
   const [value,setValue]=useState('');
   const navigate=useNavigate();
   useEffect(()=>{
-    setValue(localStorage.getItem("email"));
-    if(!value){
-      navigate('/Auth');
-    }
+    if(!localStorage.getItem("email"))navigate('/Auth');
   })
   const [numImages, setNumImages] = useState(1);
   const [textDescription, setTextDescription] = useState("");

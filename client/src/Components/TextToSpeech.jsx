@@ -12,10 +12,7 @@ const TextToSpeech = () => {
   const [value,setValue]=useState('');
   const navigate=useNavigate();
   useEffect(()=>{
-    setValue(localStorage.getItem("email"));
-    if(!value){
-      navigate('/Auth');
-    }
+    if(!localStorage.getItem("email"))navigate('/Auth');
   })
   const [audioSrc, setAudioSrc] = useState(null);
   const audioRef = useRef(null);
@@ -25,7 +22,7 @@ const TextToSpeech = () => {
     const generateSpeech = async () => {
         try {
             const openai = new OpenAI({
-                apiKey: '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',
+                apiKey: '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',
                 dangerouslyAllowBrowser: true
             });
 

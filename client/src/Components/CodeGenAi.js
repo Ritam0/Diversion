@@ -65,10 +65,7 @@ const CodeGenAi = () => {
     setLoading(false);
   };
   useEffect(()=>{
-    setValue(localStorage.getItem("email"));
-    if(!value){
-      navigate('/Auth');
-    }
+    if(!localStorage.getItem("email"))navigate('/Auth');
   })
 
   return (
