@@ -34,7 +34,7 @@ const ImageAi = () => {
             headers: {
               "Content-Type": "application/json",
               Authorization:
-                "Bearer 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",
+                "Bearer sk-Kx0oQ6QxM1jGcrmGfefdvfefwczRxKIiPAtJFAqTiEhV",
             },
             body: JSON.stringify({
               prompt: textDescription,

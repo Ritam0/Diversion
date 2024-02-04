@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 const ConversationAi = () => {
   const openai = new OpenAI({
-    apiKey: "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", // This is the default and can be omitted
+    apiKey: "sk-Kx0oQ6QxMsfsrggggggggggggeesdBlbkFejfoeyf9y9iEhV", // This is the default and can be omitted
     dangerouslyAllowBrowser: true,
   });
 
