@@ -22,6 +22,9 @@
     margin-top: 90px;
     margin-left: 100px;
   }
+  .imgInput h1{
+    padding-left: 0px;
+  }
   .inputcontainerImg {
     display: flex;
     flex-direction: row;

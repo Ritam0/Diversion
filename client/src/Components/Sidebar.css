@@ -6,15 +6,18 @@
     max-width: 60px;
   }
   .sidebar {
-    width:100%;
+    width:80%;
     height: 20%;
     background-color: #1C0221;
     padding: 20px;
     color: #fff;
   }
-  
+  .sidebar h1{
+    padding-left: 0px;
+
+  }
   .sidebar-content {
-    width: 100%;
+    width: 80%;
     height: 80%;
     background-color: #1C0221;
     color: #fff;

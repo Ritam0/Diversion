@@ -1,3 +1,37 @@
-.songContainer{
-    color: rgb(18, 17, 17);
-}
+/* SongGenAi.css */
+
+.songContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .songGen-prompt {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .musicGenBtn {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .musicGenBtn:hover {
+    background-color: yellowgreen;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  

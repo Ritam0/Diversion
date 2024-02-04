@@ -6,7 +6,7 @@ const Sidebar=({history})=> {
   return (
     <div className="Sidebar-container">
       <div className="sidebar">
-      <h2>History</h2>
+      <h1>History</h1>
     </div>
       <div className="sidebar-content">
        {history.map((item, index) => (

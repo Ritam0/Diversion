@@ -19,7 +19,7 @@ const CodeGenAi = () => {
           .catch(err => console.error('Unable to copy code', err));
       };
   const openai = new OpenAI({
-    apiKey: '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', // This is the default and can be omitted
+    apiKey: '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"', // This is the default and can be omitted
     dangerouslyAllowBrowser: true
   });
 
@@ -78,9 +78,7 @@ const CodeGenAi = () => {
           />
         </div>
       <div className="conversationContainer">
-      <div className="heading" >
-        <h3>Generate code With FusionI</h3>
-      </div>
+        <h1>Generate code With FusionI</h1>
 
         <div className="messageContainer">
         {conversation.map((msg, index) => (
