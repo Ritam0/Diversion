@@ -2,21 +2,43 @@
 
 .songContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
   }
   
+  .Song-bg-img{
+    padding-left: 20 px;
+  }
+  
+  .rightSection {
+    margin-right: 400px;
+    margin-top: 120px;
+    width: 650px;
+  }
+  
   .songGen-prompt {
-    width: 300px;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 16px;
   }
   
+  .result{
+    display: flex;
+    width: 100%;
+  }
+
+  .Song-outer-div{
+    display: flex;
+    flex-direction: row;
+  }
   .musicGenBtn {
-    margin-top: 10px;
     background-color: #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -24,14 +46,31 @@
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
+    width: 30%;
   }
   
   .musicGenBtn:hover {
     background-color: yellowgreen;
   }
   
+  .card h1{
+    padding : opx !important;
+    font-size: 18px !important;
+  }
   audio {
     width: 100%;
     margin-top: 20px;
+  }
+  
+  .card {
+    width: 750px;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   

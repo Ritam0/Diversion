@@ -8,7 +8,7 @@ import Footer from './Footer';
 import { Link } from 'react-router-dom';
 const ConversationAi = () => {
   const openai = new OpenAI({
-    apiKey: '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', // This is the default and can be omitted
+    apiKey: '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', // This is the default and can be omitted
     dangerouslyAllowBrowser: true
   });
 
@@ -66,9 +66,7 @@ const ConversationAi = () => {
           />
         </div>
       <div className="conversationContainer">
-      <div className="heading" >
-        <h3>Let's chat With FusionI</h3>
-      </div>
+        <h1>Let's chat With FusionI</h1>
 
         <div className="messageContainer">
         {conversation.map((msg, index) => (
